@@ -1,0 +1,100 @@
+.section-hero {
+  color: #00065a;
+  z-index: -1;
+  background: #d2d2d2;
+  border-bottom: 0;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  margin-bottom: 0;
+  padding: 0 5.6rem;
+  font-weight: 400;
+  display: flex;
+  inset: 0;
+  padding-bottom: 10px;
+}
+
+.hero-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-title {
+  text-align: left;
+  margin-bottom: 3.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #00065a;
+}
+
+.hero_txt {
+  -webkit-text-fill-color: transparent;
+  color: #0000;
+  background-image: linear-gradient(135deg, #003c71 0%, #0067ea 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.cta {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0067ea;
+  -webkit-text-fill-color: #0067ea;
+  -webkit-border-image-slice: 1;
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 2px;
+  border-image: linear-gradient(135deg, #003c71 0%, #0067ea 100%) 1;
+  padding: 0px 17px;
+  border-radius: 7px !important;
+}
+.cta:hover {
+  background: linear-gradient(135deg, #003c71 0%, #0067ea 100%);
+  color: #fff !important;
+  -webkit-text-fill-color: #fff;
+  text-decoration: none;
+}
+
+.hero-cta {
+  -webkit-text-fill-color: transparent;
+  color: #0000;
+  background-image: linear-gradient(135deg, #003c71 0%, #0067ea 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+@media (width >= 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (width >= 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
+@media (width >= 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+}
+@media (width >= 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}

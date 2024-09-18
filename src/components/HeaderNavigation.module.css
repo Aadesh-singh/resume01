@@ -1,0 +1,51 @@
+.ulList {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 12px 6px 12px 6px;
+  z-index: 100;
+  color: #003c71 !important;
+  background-color: inherit;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ulList li {
+  text-transform: uppercase;
+}
+
+.ulList li a {
+  text-decoration: none;
+  color: #003c71;
+}
+
+.ulList li a:hover,
+.active {
+  border-bottom: 4px solid #003c71;
+}
+
+@media (max-width: 768px) {
+  .ulList {
+    flex-direction: column;
+  }
+}
+
+/* When scrolled, change background and text color */
+.scrolled {
+  background-color: #003c71 !important;
+  color: #fff !important;
+}
+
+.scrolled .active {
+  border-bottom: 4px solid #fff;
+}
+
+.scrolled li a {
+  text-decoration: none;
+  color: #fff;
+}
