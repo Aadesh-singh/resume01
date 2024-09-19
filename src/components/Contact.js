@@ -7,7 +7,7 @@ import SectionWraper from "./SectionWraper";
 const Contact = () => {
   return (
     <SectionWraper id="contact">
-      <section id="contact" className={classes["contact-section"]}>
+      <section className={classes["contact-section"]}>
         <div className="container">
           <h2 className={classes["container-title"]}>Contact</h2>
           <div className={classes["contact-wraper"]}>

@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import classes from "./HeaderNavigation.module.css";
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import Button from "../ui/Button";
 
 const HeaderNavigation = () => {
@@ -41,40 +42,56 @@ const HeaderNavigation = () => {
     <Fragment>
       <ul className={`${classes.ulList} ${scrolled ? classes.scrolled : null}`}>
         <li>
-          <NavLink
-            to="/#intro"
+          <HashLink
+            to="#intro"
             title="Home"
             className={isActiveHash("#intro") ? classes.active : null}
+            smooth
           >
             Home
-          </NavLink>
+          </HashLink>
         </li>
         <li>
-          <NavLink
-            to="/#about"
+          <HashLink
+            to="#about"
             title="About Aadesh"
             className={isActiveHash("#about") ? classes.active : null}
+            smooth
           >
             About Me
-          </NavLink>
+          </HashLink>
         </li>
         <li>
-          <NavLink
-            to="/#projects"
+          <HashLink
+            to="#company_projects"
+            title="Aadesh's Projects"
+            className={
+              isActiveHash("#company_projects") ? classes.active : null
+            }
+            smooth
+          >
+            Company Projects
+          </HashLink>
+        </li>
+        <li>
+          <HashLink
+            to="#projects"
             title="Aadesh's Projects"
             className={isActiveHash("#projects") ? classes.active : null}
+            smooth
           >
-            Projects
-          </NavLink>
+            Personal Projects
+          </HashLink>
         </li>
         <li>
-          <NavLink
+          <HashLink
             to="#contact"
             title="Contact Aadesh"
             className={isActiveHash("#contact") ? classes.active : null}
+            smooth
           >
             Contact
-          </NavLink>
+          </HashLink>
         </li>
         <li>
           <Button>Download Resume</Button>

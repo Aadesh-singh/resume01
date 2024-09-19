@@ -100,7 +100,6 @@
     width: 85%;
   }
 }
-
 /* Mobile phones (landscape) and small tablets */
 @media (min-width: 481px) and (max-width: 767px) {
   .project_wrapper_para {
@@ -113,4 +112,16 @@
   .project_wrapper_para {
     width: 100%;
   }
+}
+
+/* Small laptops and large tablets */
+@media (min-width: 1024px) and (max-width: 1366px) {
+}
+
+/* Laptops and desktops */
+@media (min-width: 1367px) and (max-width: 1920px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
 }

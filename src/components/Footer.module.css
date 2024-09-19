@@ -40,3 +40,10 @@
   color: #000;
   text-align: center;
 }
+
+/* Mobile phones (portrait and landscape) */
+@media (max-width: 480px) {
+  .socail-links {
+    width: 56%;
+  }
+}

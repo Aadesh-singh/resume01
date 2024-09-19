@@ -28,7 +28,7 @@ const Introduction = () => {
 
   return (
     <SectionWraper id="intro">
-      <section id="intro" className={classes["section-hero"]}>
+      <section className={classes["section-hero"]}>
         <div className={classes["hero-container"]}>
           <h1 className={classes["hero-title"]}>
             Hi, My name is{" "}

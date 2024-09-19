@@ -68,6 +68,45 @@
   background-clip: text;
 }
 
+/* Mobile phones (portrait and landscape) */
+@media (max-width: 480px) {
+  .section-hero {
+    max-width: 100%;
+  }
+  .hero-title {
+    font-size: 1.6rem;
+  }
+  .cta {
+    font-size: 1.7rem;
+  }
+}
+
+/* Mobile phones (landscape) and small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .cta {
+    font-size: 1.7rem;
+  }
+}
+
+/* Tablets (portrait) and small laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Small laptops and large tablets */
+@media (min-width: 1024px) and (max-width: 1366px) {
+}
+
+/* Laptops and desktops */
+@media (min-width: 1367px) and (max-width: 1920px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+}
+
 @media (width >= 1200px) {
   .container-xl,
   .container-lg,

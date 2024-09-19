@@ -6,7 +6,7 @@ import SectionWraper from "./SectionWraper";
 const About = () => {
   return (
     <SectionWraper id="about">
-      <section id="about" className={classes["about-section"]}>
+      <section className={classes["about-section"]}>
         <div className="container">
           <h1 className={classes["about-heading"]}>About Me</h1>
           <div className={classes["about-container"]}>
@@ -19,11 +19,11 @@ const About = () => {
             </div>
             <div className={classes["description-container"]}>
               <p>
-                An accomplished <bold>Full Stack Software Engineer</bold> with a
-                flair for designing technology that streamlines lives. Adept in
-                Backend and Frontend Web Development, I am committed to staying
-                at the forefront of tech trends and delivering impactful
-                solutions that simplify the world.
+                An accomplished Full Stack Software Engineer with a flair for
+                designing technology that streamlines lives. Adept in Backend
+                and Frontend Web Development, I am committed to staying at the
+                forefront of tech trends and delivering impactful solutions that
+                simplify the world.
               </p>
               <p>
                 Fun Fact: My passion for this field was fueled by the iconic

@@ -1,4 +1,5 @@
 import About from "./About";
+import CompanyProjects from "./CompanyProjects";
 import Contact from "./Contact";
 import Introduction from "./Intoduction";
 import Projects from "./Projects";
@@ -13,9 +14,10 @@ const HomeComponent = () => {
       <ScrollTransitionWrapper>
         <About />
       </ScrollTransitionWrapper>
-      <ScrollTransitionWrapper>
-        <Projects />
-      </ScrollTransitionWrapper>
+      {/* <ScrollTransitionWrapper> */}
+      <CompanyProjects />
+      <Projects />
+      {/* </ScrollTransitionWrapper> */}
       <ScrollTransitionWrapper>
         <Contact />
       </ScrollTransitionWrapper>

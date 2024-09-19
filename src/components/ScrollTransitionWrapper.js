@@ -9,9 +9,15 @@ const ScrollTransitionWrapper = ({ children }) => {
     const observer = new IntersectionObserver(
       (entries) => {
         const entry = entries[0];
-        setIsVisible(entry.isIntersecting);
+        console.log("entry.isIntersecting: ", entry.isIntersecting);
+        if (entry.isIntersecting !== isVisible) {
+          setIsVisible(entry.isIntersecting);
+        }
       },
-      { threshold: 0.3 } // Adjust threshold as needed
+      {
+        threshold: 0.1, // Adjust this value
+        rootMargin: "0px", // You can try expanding the margin like "100px"
+      }
     );
     let wrapperRefCur = wrapperRef.current;
 

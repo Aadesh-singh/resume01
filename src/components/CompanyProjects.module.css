@@ -1,0 +1,49 @@
+.projects-section {
+  color: #00065a;
+  background-color: aliceblue;
+  margin-top: -12rem;
+  padding-top: 15rem;
+  padding-bottom: 1px;
+}
+
+.project-wrapper {
+  margin-bottom: 15rem;
+}
+
+.dark-blue-text {
+  color: #00065a !important;
+}
+.section-title {
+  text-transform: uppercase;
+  margin: 0 0 4.5rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Mobile phones (portrait and landscape) */
+@media (max-width: 480px) {
+  .section-title {
+    width: 80%;
+    margin: auto;
+  }
+}
+/* Mobile phones (landscape) and small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablets (portrait) and small laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Small laptops and large tablets */
+@media (min-width: 1024px) and (max-width: 1366px) {
+}
+
+/* Laptops and desktops */
+@media (min-width: 1367px) and (max-width: 1920px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+}

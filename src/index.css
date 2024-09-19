@@ -27,6 +27,23 @@ code {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 480px) {
+  .container,
+  .container-fluid,
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    overflow: hidden;
+    padding-bottom: 10px;
+  }
+  .row {
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+}
 @media (width >= 576px) {
   .container-sm,
   .container {

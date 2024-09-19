@@ -37,3 +37,39 @@
 .description-container {
   flex-basis: 40%;
 }
+
+/* Mobile phones (portrait and landscape) */
+@media (max-width: 480px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .description-container p {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 20px;
+  }
+  .about-section {
+    clip-path: polygon(0 0, 99% 0%, 100% 100%, 0 100%);
+  }
+}
+/* Mobile phones (landscape) and small tablets */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Tablets (portrait) and small laptops */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Small laptops and large tablets */
+@media (min-width: 1024px) and (max-width: 1366px) {
+}
+
+/* Laptops and desktops */
+@media (min-width: 1367px) and (max-width: 1920px) {
+}
+
+/* Extra large screens */
+@media (min-width: 1920px) {
+}
