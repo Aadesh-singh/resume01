@@ -2,7 +2,7 @@ import classes from "./Button.module.css";
 const Button = (props) => {
   return (
     <a
-      href="/Resume(AadeshSingh).pdf" // Path to the resume file in the public folder
+      href="/resume_aadesh_4oct.pdf" // Path to the resume file in the public folder
       download="Resume_Aadesh.pdf"
     >
       <button
