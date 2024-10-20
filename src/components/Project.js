@@ -11,7 +11,7 @@ const Project = (props) => {
               {description}
             </p>
           </div>
-
+          {/* <div className={`${classes["btn-wrapper"]}`}> */}
           <a
             rel="noreferrer"
             target="_blank"
@@ -28,6 +28,7 @@ const Project = (props) => {
           >
             Source Code
           </a>
+          {/* </div> */}
         </div>
       </div>
       <div className="col-lg-8 col-sm-12">

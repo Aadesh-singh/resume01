@@ -5,7 +5,9 @@
   background-image: linear-gradient(135deg, #003c71 0%, #0067ea 100%);
   border-top: 0;
   height: 100%;
-  padding-bottom: 10%;
+  padding: 1.25rem;
+  padding-bottom: 155px;
+  box-sizing: border-box;
 }
 
 .about-heading {
@@ -51,7 +53,16 @@
     margin-top: 20px;
   }
   .about-section {
-    clip-path: polygon(0 0, 99% 0%, 100% 100%, 0 100%);
+    clip-path: none;
+    /* clip-path: polygon(0 0, 99% 0%, 100% 100%, 0 100%); */
+  }
+  .img-container {
+    width: 80%;
+    margin: auto;
+  }
+  .description-container {
+    width: 100%;
+    margin: auto;
   }
 }
 /* Mobile phones (landscape) and small tablets */

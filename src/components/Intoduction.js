@@ -30,6 +30,9 @@ const Introduction = () => {
     <SectionWraper id="intro">
       <section className={classes["section-hero"]}>
         <div className={classes["hero-container"]}>
+          <div className={classes["hero-image"]}>
+            <img src="/assets/software.png" alt="software" />
+          </div>
           <h1 className={classes["hero-title"]}>
             Hi, My name is{" "}
             <span className={classes["hero_txt"]}>Aadesh Singh</span>

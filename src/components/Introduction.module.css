@@ -1,4 +1,5 @@
 .section-hero {
+  box-sizing: border-box;
   color: #00065a;
   z-index: -1;
   background: #d2d2d2;
@@ -22,6 +23,15 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.hero-image {
+  display: none;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
 }
 
 .hero-title {
@@ -71,13 +81,38 @@
 /* Mobile phones (portrait and landscape) */
 @media (max-width: 480px) {
   .section-hero {
-    max-width: 100%;
+    width: 100%;
+    padding: 16px;
+  }
+  .hero-container {
+    --bs-gutter-x: 0rem;
+  }
+
+  .hero-image {
+    display: block;
+    box-sizing: border-box;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    padding: 35px;
+  }
+
+  .hero-container p {
+    padding: 24px;
   }
   .hero-title {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 24px;
+    text-align: justify;
   }
   .cta {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
   }
 }
 

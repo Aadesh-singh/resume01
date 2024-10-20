@@ -89,16 +89,35 @@
 
 /* Mobile phones (portrait and landscape) */
 @media (max-width: 480px) {
+  .project_wrapper__text {
+    padding: 1.25rem;
+    width: 90%;
+    margin: auto;
+  }
   .project_wrapper__text div {
-    width: 65%;
+    width: 100%;
     text-align: justify;
+    margin: auto;
+    padding: 1.25rem;
+    box-sizing: border-box;
   }
   .project_wrapper__text h3 {
-    width: 65%;
+    width: 87%;
+    margin: auto;
+    text-align: left;
   }
   .project-wrapper__image img {
     width: 85%;
   }
+  .hero-cta {
+    margin-left: 6%;
+  }
+  /* .btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  } */
 }
 
 /* Mobile phones (landscape) and small tablets */

@@ -41,6 +41,16 @@
   .contact-section {
     clip-path: polygon(0 0vh, 100% 0%, 100% 100%, 0 100%);
     margin-bottom: 13px;
+    padding: 100px 18px;
+  }
+  .container-title {
+    margin-bottom: 2rem;
+  }
+  .contact-wrapper__text {
+    font-size: 1.3rem;
+  }
+  .cta-btn--resume {
+    font-size: 1.5rem;
   }
 }
 /* Mobile phones (landscape) and small tablets */

@@ -44,6 +44,18 @@
 /* Mobile phones (portrait and landscape) */
 @media (max-width: 480px) {
   .socail-links {
-    width: 56%;
+    width: 100%;
+    padding: 0px 60px;
+    box-sizing: border-box;
+    margin: 63px 0px;
+  }
+  .footer-section hr {
+    width: 60%;
+  }
+  .footer__text {
+    display: block;
+    margin: 0px 0px 79px;
+    box-sizing: border-box;
+    padding: 25px;
   }
 }
