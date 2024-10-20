@@ -9,7 +9,7 @@ const PROJECTS = [
     id: 1,
     title: "Cloudnito",
     description: `Cloudnito is a powerful cloud cost optimization app, built using Angular, Firebase, AWS Redshift, AWS Lambda, and Node.js. It not only provides real-time cost updates but also detects unusual anomalies and generates actionable recommendations to resolve them. Additionally, Cloudnito supports ChatGPT integration, enabling users to interact with the app through natural language queries, enhancing the overall user experience. With Cloudnito, users can ensure efficient cloud resource usage while staying ahead of any cost spikes or irregularities.`,
-    liveUrl: "httpshttps://app.cloudnito.com/login",
+    liveUrl: "https://app.cloudnito.com/login",
     github: "",
     assetPath: "/images/cloudnito.png",
   },
